@@ -32,7 +32,7 @@ def calculate():
        y = int(t['High'])
 
        z = range(int(x),int(y)+1)
-    if x and y > 0:
+    if x > 0 and y > 0:
        for numb1 in z:
            if numb1 > 1:
                for i in range(2,numb1):
